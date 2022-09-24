@@ -6,7 +6,8 @@
 }
 
 .status-bar__column{
-    width:33%;
+    position: fixed;
+    width: 98%;
 }
 
 .status-bar__column:first-child span{
@@ -27,3 +28,4 @@
 .status-bar__column .fa-battery-half {
     margin: 0px 5px;
 }
+
