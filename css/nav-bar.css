@@ -12,6 +12,35 @@
     display: flex;
     justify-content: space-between;
 }
-.mav__link{
+.nav__link{
+    position: relative;
     color: #2e363e;
 }
+
+.nav__notification{
+    background-color: red;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+.nav__notification2{
+    background-color: red;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    position: absolute;
+    left: 28px;
+}
+/*position:absolute는 가장 가까운 relative를 가진 부모기준으로 움직임
+  이경우에는 가장가까운 nav__link에다가 position:relative를 주기
+*/ 
